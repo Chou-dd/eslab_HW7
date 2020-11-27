@@ -1,0 +1,21 @@
+{
+    "config": {
+        "wifi-shield": {
+            "help": "WiFi Shield",
+            "value": "WIFI_ISM43362"
+        },
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"esys305\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"305305abcd\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true
+        }
+    }
+}
